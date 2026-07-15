@@ -1,0 +1,9 @@
+participant_id,height,weight,age,gender,english_native,other_languages,other_languages_1_text,dominant_hand,dominant_leg,hearing,balance_disorder,mobility_issue,sports_injury,pregnancy,relationship_to_interlocutor
+103,173,55,19,Female,Yes,No,,Right hand,I do not know,No,No,No,No,No,stranger
+203,182,98,21,Male,Yes,No,,Right hand,Right leg,No,No,No,No,No,stranger
+108,163,55,19,Female,Yes,No,,Right hand,Right leg,No,No,No,No,No,stranger
+208,165,63,19,Female,Yes,No,,Right hand,Right leg,No,No,No,No,No,stranger
+110,187,75,19,Male,Yes,No,,Right hand,Left leg,No,No,No,No,No,friend
+210,184,68,18,Male,No,Yes,Mandarin,Left hand,Left leg,No,No,No,No,No,friend
+116,165,51,18,Female,Yes,No,,Right hand,Right leg,No,No,No,No,No,friend
+216,149,45,19,Female,Yes,No,,Right hand,Right leg,No,No,No,No,No,friend
