@@ -95,7 +95,7 @@ participants:
 
 ## Question 8 - Other
 Reasoning for question 1) answer:
-We are working with an already collected (and analysed with different research questions) data set made publically available by the authors of the original study (Li et al. (2026) - https://doi.org/10.1121/10.0043950).
+We are working with an already collected data set, which was analysed under different research questions, and made publically available by the authors of the original study (@li2026).
 
 
 ## Question 9 - Name
@@ -107,7 +107,7 @@ We are working with an already collected (and analysed with different research q
 
 
 ## Question 11 - Data source
-other: Original audio and video files were taken from: https://doi.org/10.5281/zenodo.19853626
+other: Original audio and video files were taken from Li et al.'s [-@li2026] [zenodo](https://doi.org/10.5281/zenodo.19853626) repository
 
 
 ## Limitations / future directions
