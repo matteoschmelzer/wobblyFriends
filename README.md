@@ -33,11 +33,11 @@ format: pdf
 # Pre-registration (on [*AsPredicted.org*](https://aspredicted.org/index.php))
 
 ## Authors (in alphabetical order)
--  Solveigh Janzen (solveigh.janzen@uni-koeln.de)
--  Kristina Koch (kkoch@tcd.ie)
--  Matteo Schmelzer (matteo.schmelzer@uni-koeln.de)
--  Tim Murphy (tim.murphy@bristol.ac.uk)
--  Nthabiseng Shongwe (nthabiseng.shongwe@ru.nl)
+-  Solveigh Janzen ([`solveigh.janzen@uni-koeln.de`](mailto:solveigh.janzen@uni-koeln.de))
+-  Kristina Koch ([`kkoch@tcd.ie`](mailto:kkoch@tcd.ie))
+-  Matteo Schmelzer ([`matteo.schmelzer@uni-koeln.de`](mailto:matteo.schmelzer@uni-koeln.de))
+-  Tim Murphy ([`tim.murphy@bristol.ac.uk`](mailto:tim.murphy@bristol.ac.uk))
+-  Nthabiseng Shongwe ([`nthabiseng.shongwe@ru.nl`](mailto:nthabiseng.shongwe@ru.nl))
 
 
 ## Question 1 - Data collection
