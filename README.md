@@ -43,7 +43,9 @@ The following document consists of prompts for a preregistration based on the fo
 
 
 ## Question 1 - Data collection
-`c)`
+**Transcript & Demographic data.** We developed two Python scripts (`fetch_metadata_demographics.py` and `fetch_textgrid_transcripts.py` to scrape the transcript data from the Balance Corpus Explorer (https://thebalancecorpus.warwick.ac.uk/explore#). This provided us with the OpenAI Whisper transcripts that had been proof-checked by the authors. We decided to go with this approach instead of running Whisper locally because it saved time and provided us with higher quality transcripts for 10 dyads (only three dyads were provided in the MDIG2026 repository). This increase in data will give us more statistical power to test the hypotheses below. Note: the 10 dyads featured on the Balance Corpus Explorer explicitly gave consent for their data to be shared publicly.
+
+**Video & Audio data.** Video and audio data from three dyads were made available to us through the MDIG2026 Summer School GitHub repository. 
 
 
 ## Question 2 - Hypotheses
