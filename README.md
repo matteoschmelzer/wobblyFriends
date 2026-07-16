@@ -45,17 +45,20 @@ format: pdf
 
 
 ## Question 2 - Hypotheses
-1. The use of gesture increases (in terms of number of gestures as well as, complexity and gesture space used) when participants are unfamiliar with one another, in comparison to when they are familiar with one another.
+**1. The use of gesture increases (in terms of number of gestures as well as, complexity and gesture space used) when participants are unfamiliar with one another, in comparison to when they are familiar with one another.**
 -   [**add_lit_here**]
 
-2. Participants that are familiar with one another have a higher success rate (more times successful).
+**2. Participants that are familiar with one another have a higher success rate (more times successful).**
 -   [**add_lit_here**]
+-   This is an exploratory result as we use the 10 dyads from the balance corpus explorer (N=400 trials) rather than the 4 dyads used in the confirmatory Hypothesis 1. We find there is no support for this hypothesis. Success rate was near-identical for both groups (friend 91.5%; stranger 91.0%; trial-level χ²=0.00, p=1.00; pair-level Mann Whitney U=11.0, p=.831; logistic regression controlling for condition: OR=0.94 for stranger vs friend, p=.859). An overall ~91% success rate leaves little room for a relationship effect to surface, suggesting a likely ceiling effect, rather than a clean rejection of this hypothesis.
 
-3. Dyads with participants that are familiar with one other will take longer to accomplish a trial (consisting of a round of taboo) in comparison to dyads that are unfamiliar with one another. We assume this because familiarity enables the use of shared humour and in-jokes, which may increase enjoyment but simultaneously slow down effective guessing.
+**3. Dyads with participants that are familiar with one other will take longer to accomplish a trial (consisting of a round of taboo) in comparison to dyads that are unfamiliar with one another. We assume this because familiarity enables the use of shared humour and in-jokes, which may increase enjoyment but simultaneously slow down effective guessing.**
 -   [**add_lit_here**]
+-   This is also exploratory as we use the 10 dyads from Hypothesis 2 (N=400 trials). We find weak support for this hypothesis at the trial level, but not at the pair level. Friend dyads took longer to reach a correct guess (median 11.13s vs 8.46s for strangers; trial-level Mann Whitney U p=.056) and needed slightly more clue-giver utterances before success (mean 6.24 vs 5.79, p=.194). Both results are in the predicted direction but neither holds up at the pair level, whee we collapse to one value per pair (Mann Whitney U=20.0, p=.151). With only 10 pairs in total, this is underpowered either way.
 
-4. Participants on the balance board take longer to successfully complete the Taboo task, due to increased allotment of resources allocated to balancing.
+**4. Participants on the balance board take longer to successfully complete the Taboo task, due to increased allotment of resources allocated to balancing.**
 -   [**add_lit_here**] this is based on studies that show that walking and unipedal standing caused participants to solve tasks more quickly, but we assume that balancing is more cognitively demanding as shown in another study
+-   Also exploratory as we use the 10 dyads from Hypotheses 2 and 3 (N=400 trials). We find no support for this hypothesis. If anything, we find that the non-significant trend is in the opposite direction. Trials on the balanace board were faster, not slower, than trials on stable ground (median 9.31s vs 10.62s; trial-level Mann Whitney U p=.292; paired per-pair Wilcoxon W=21.0, p=.557). Taboo word rule slips (accidentally saying a forbidden word) were also statistically indistinguishable between conditions (15.5% vs 14.0% of trials, χ²=.08, p=.778).
 
 
 ## Question 3 - Dependent variable(s)
@@ -63,9 +66,9 @@ Our dependent variable is success rate, which is operationalised as described un
 
 
 ## Question 4 - Conditions
-1. **familiarity**: friends vs. strangers (caveat: binary measure based on questionnaire)
-   -    ideally this would be measured more precisely (how close/long have participants interacted previously)
-3. **balance board**: on the board (unstable) not on the board (stable)
+1. **familiarity** -- Here we are comparing two different dyad compositions, consisting of either two friends or two strangers (with the caveat that with currently available data, this is based on a binary measure based on participant responses to a questionnaire -- for a comprehensive study, this measure should to be refined to more accurate measure duration and closeness of the relationships between participants).
+
+2. **balance board** -- Here we are comparing clue-givers standing on a one-axis balance board (unstable) to the same clue-givers while standing on the floor (stable).
 
 
 ## Question 5 - Analyses
@@ -74,11 +77,17 @@ Our analysis is based on an existing dataset used for an original study by Li et
 -   gesture space (per trial)
 -   gesture duration (per trial)
 
-In addition we are measuring success rate of individual trials based on existing proofread transcripts of used in the original study. This is operationalised via:
--   the number of tokens produced until the taboo word is guessed
--   the duration of the trial until the taboo word is guessed
+In addition, we are measuring success rate of individual trials based on existing proofread transcripts of used in the original study. A trial only counts as a success if the guesser (not the clue giver) says the target word before the 60 second game clock expires. This is adjudicated rather than a simple text search so that we can handle several patterns found in the corpus, e.g.:
+- whole-word matching that tolerates regular plural/spelling variants (e.g., "donut"/"doughnut") and words split across two annotator segments (e.g., "zip" + "per" for "zipper")
+- exclusion of trials where only the clue giver accidentally said the target word (a rule slip, not a guess)
+- exclusion of correct guesses that occurred after the timer had run out
+- the 60s clock is timed from the clue-giver's first spoken segment, not from t=0 of the recording
 
-Additionally it would be interesting to base this measure on the number of attempts at guessing (which is different from the number of tokens produced until taboo word is guessed (fillers))
+For successful trials, we additionally measure:
+- **time to success**: seconds from the clue-giver's first utterance to the guesser's correct guess
+- **communicative effort**: the number of clue-giver utterances produced before the correct guess
+
+Additionally, it would be interesting to base this measure on the number of attempts at guessing (which is different from the number of tokens produced until taboo word is guessed (fillers))
 
 
 ## Questions 6 - Outliers and exclusions
@@ -95,7 +104,7 @@ participants:
 
 ## Question 8 - Other
 Reasoning for question 1) answer:
-We are working with an already collected (and analysed with different research questions) data set made publically available by the authors of the original study (Li et al. (2026) - https://doi.org/10.1121/10.0043950).
+We are working with an already collected data set, which was analysed under different research questions, and made publically available by the authors of the original study (@li2026).
 
 
 ## Question 9 - Name
@@ -107,7 +116,7 @@ We are working with an already collected (and analysed with different research q
 
 
 ## Question 11 - Data source
-other: Original audio and video files were taken from: https://doi.org/10.5281/zenodo.19853626
+other: Original audio and video files were taken from Li et al.'s [-@li2026] [zenodo](https://doi.org/10.5281/zenodo.19853626) repository
 
 
 ## Limitations / future directions
