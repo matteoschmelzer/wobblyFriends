@@ -1,3 +1,35 @@
+---
+bibliography: lit.bib
+csl: apa-no-initials.csl
+
+title: "Preregistration *wobblyFriendships*"
+
+toc: false
+fig-cap-location: bottom
+number-sections: false
+link-citations: true # creates references with hyperlinks to the references
+crossref:
+  fig-title: Fig.
+
+indent: true
+fontsize: 12pt
+linestretch: 1.5 # line spacing
+papersize: a4
+geometry:
+    - inner=30mm # left border
+    - outer=25mm # right border
+    - top=20mm
+    - bottom=20mm
+    - headsep=22pt # mystery ingredients ↓
+    - headheight=11pt
+    - footskip=33pt
+    - ignorehead
+    - ignorefoot
+    - heightrounded
+
+format: pdf
+---
+
 # Pre-registration (on [*AsPredicted.org*](https://aspredicted.org/index.php))
 
 ## Authors (in alphabetical order)
@@ -19,7 +51,8 @@
 2. Participants that are familiar with one another have a higher success rate (more times successful).
 -   [**add_lit_here**]
 
-3. Dyads that are familiar with each other will take longer time to accomplish a trial than dyads that are unfamiliar due to adding humour which may be not the most effiecient way to communicate the content. [rephrase this hypothesis since it is not really good phrased]
+3. Dyads with participants that are familiar with one other will take longer to accomplish a trial (consisting of a round of taboo) in comparison to dyads that are unfamiliar with one another. We assume this because familiarity enables the use of shared humour and in-jokes, which may increase enjoyment but simultaneously slow down effective guessing.
+-   [**add_lit_here**]
 
 4. Participants on the balance board take longer to successfully complete the Taboo task, due to increased allotment of resources allocated to balancing.
 -   [**add_lit_here**] this is based on studies that show that walking and unipedal standing caused participants to solve tasks more quickly, but we assume that balancing is more cognitively demanding as shown in another study
@@ -36,7 +69,7 @@ Our dependent variable is success rate, which is operationalised as described un
 
 
 ## Question 5 - Analyses
-We plan to extract and analyse gestures using `OpenPose` using the video files provided in the original study by [`**ADD**`]. Based on this output we are measuring:
+Our analysis is based on an existing dataset used for an original study by Li et al. [-@li2026]. We plan to extract and analyse gestures using `EnvisionBoxHGDetector` [@pouw2025a] using the video files provided in the original study. Based on this output we are measuring:
 -   gestural rate (per trial)
 -   gesture space (per trial)
 -   gesture duration (per trial)
@@ -95,3 +128,6 @@ The taboo task itself could also be modified to be a challenge in which the goal
 
 ### data annotation
 Audio recordings should be manually labelled in more detail to indicate individual guessing attempts to compare duration until success and tokens produced
+
+### data availability
+If we were to make additional recordings (or record a new set of recordings using the, possibly modified, setup) we would strongly consider applying a masking algorithm such as `MaskAnyone`[@owoyele2024] or `masked piper` [@owoyele2022a] to de-identify data and thus increase our ability to make data publically available for other researchers to use in their experiments.
