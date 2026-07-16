@@ -1,3 +1,35 @@
+---
+bibliography: lit.bib
+csl: apa-no-initials.csl
+
+title: "Preregistration *wobblyFriendships*"
+
+toc: false
+fig-cap-location: bottom
+number-sections: false
+link-citations: true # creates references with hyperlinks to the references
+crossref:
+  fig-title: Fig.
+
+indent: true
+fontsize: 12pt
+linestretch: 1.5 # line spacing
+papersize: a4
+geometry:
+    - inner=30mm # left border
+    - outer=25mm # right border
+    - top=20mm
+    - bottom=20mm
+    - headsep=22pt # mystery ingredients ↓
+    - headheight=11pt
+    - footskip=33pt
+    - ignorehead
+    - ignorefoot
+    - heightrounded
+
+format: pdf
+---
+
 # Pre-registration (on [*AsPredicted.org*](https://aspredicted.org/index.php))
 
 ## Authors (in alphabetical order)
@@ -95,3 +127,6 @@ The taboo task itself could also be modified to be a challenge in which the goal
 
 ### data annotation
 Audio recordings should be manually labelled in more detail to indicate individual guessing attempts to compare duration until success and tokens produced
+
+### data availability
+If we were to make additional recordings (or record a new set of recordings using the, possibly modified, setup) we would strongly consider applying a masking algorithm such as `MaskAnyone`[@owoyele2024] or `masked piper` [@owoyele2022a] to de-identify data and thus increase our ability to make data publically available for other researchers to use in their experiments.
