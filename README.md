@@ -178,25 +178,25 @@ If we were to make additional recordings (or record a new set of recordings usin
 
 ## CRediT
 
-Conceptualization: Solveigh Janzen, Kristina Koch, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
+**Conceptualization**: Solveigh Janzen, Kristina Koch, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
 
-Data curation: Kristina Koch, Tim Murphy
+**Data curation**: Kristina Koch, Tim Murphy
 
-Formal analysis: Kristina Koch, Tim Murphy, Matteo Schmelzer
+**Formal analysis**: Kristina Koch, Tim Murphy, Matteo Schmelzer
 
-Investigation: Solveigh Janzen, Kristina Koch, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
+**Investigation**: Solveigh Janzen, Kristina Koch, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
 
-Methodology: Solveigh Janzen, Kristina Koch, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
+**Methodology**: Solveigh Janzen, Kristina Koch, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
 
-Project administration: Matteo Schmelzer
+**Project administration**: Matteo Schmelzer
 
-Software: Kristina Koch, Tim Murphy
+**Software**: Kristina Koch, Tim Murphy
 
-Visualization: Solveigh Janzen, Tim Murphy, Nthabiseng Shongwe
+**Visualization**: Solveigh Janzen, Tim Murphy, Nthabiseng Shongwe
 
-Writing –- original draft: Solveigh Janzen, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
+**Writing –- original draft**: Solveigh Janzen, Tim Murphy, Matteo Schmelzer, Nthabiseng Shongwe
 
-Writing –- review & editing: Solveigh Janzen, Matteo Schmelzer, Nthabiseng Shongwe
+**Writing –- review & editing**: Solveigh Janzen, Matteo Schmelzer, Nthabiseng Shongwe
 
 {{< pagebreak >}}
 
