@@ -73,7 +73,7 @@ This is also exploratory as we use the 10 dyads from Hypothesis 2 (N=400 trials)
 
 **3. The use of gesture increases (in terms of number of gestures as well as, complexity and gesture space used) when participants are unfamiliar with one another, in comparison to when they are familiar with one another.**
 
-This is supported by @anderson2020, who ***TBA***.
+This is supported by @anderson2020, who finds that familiarity between interlocutors afffects gesture rate.
 
 We only had three dyads available to us, which limits what we can do and the statistical power we can achieve. Nonetheless, for each trial (N=40 per dyad, 120 in total) we used OpenPose to calculate gesture rate and gesture duration. Ideally, we would have more data and we would run something like a linear mixed effects model (LME). This would control for the fact that individual trials are not independent data points - all trials within a dyad are related to each other as they are interactions between the same two people - by using a random intercept. See future directions for more information.
 
@@ -122,7 +122,7 @@ We are excluding bilingual speakers as well as non-L1 speakers of English, to li
 
 
 ## Question 7 - Sample size
--   4 dyads à 40 trials (*N*=160)
+-   3 dyads à 40 trials (*N*=120) for confirmatory analyses, 10 dyads à 40 trials (*N*=400) for exploratory analyses of transcripts
 -   5 female, 3 male participants, 7 native monolingual speakers of English, one bilingual, L2 speaker (L1 Mandarin)
 
 
