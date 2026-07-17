@@ -2,7 +2,7 @@
 bibliography: lit.bib
 csl: apa-no-initials.csl
 
-title: "Preregistration *wobblyFriendships*"
+title: "Preregistration *wobblyFriends*"
 
 toc: false
 fig-cap-location: bottom
@@ -125,7 +125,7 @@ We are working with an already collected data set, which was analysed under diff
 
 
 ## Question 9 - Name
-`wobblyFriendships` - (MDIG2026 envisionbox Summer school)
+`wobblyFriends` - (MDIG2026 envisionbox Summer school)
 
 
 ## Question 10 - Type of study
